@@ -487,7 +487,7 @@
                             
                             <div class="qrcode-container">
                                 <div class="qrcode">
-                                    <div class="qrcode-img">
+                                    <div class="qrcode-img" onclick="zoomImage(this)">
                                         <img src="wechat-reward.jpg" alt="微信赞赏码" style="max-width: 100%; height: auto;">
                                     </div>
                                     <div class="qrcode-label">微信赞赏</div>
@@ -517,14 +517,14 @@
             aries: { name: "白羊座", icon: "fas fa-fire" },
             taurus: { name: "金牛座", icon: "fas fa-paw" },
             gemini: { name: "双子座", icon: "fas fa-comments" },
-            cancer: { name: "巨蟹座", icon: "fas fa-crab" },
+            cancer: { name: "巨蟹座", icon: "fas fa-crab" }, // 确保这个图标是可用的
             leo: { name: "狮子座", icon: "fas fa-crown" },
             virgo: { name: "处女座", icon: "fas fa-seedling" },
             libra: { name: "天秤座", icon: "fas fa-balance-scale" },
-            scorpio: { name: "天蝎座", icon: "fas fa-scorpion" },
-            sagittarius: { name: "射手座", icon: "fas fa-bow-arrow" },
+            scorpio: { name: "天蝎座", icon: "fas fa-scorpion" }, // 确保这个图标是可用的
+            sagittarius: { name: "射手座", icon: "fas fa-spray-can" }, // 更新为可用图标
             capricorn: { name: "摩羯座", icon: "fas fa-mountain" },
-            aquarius: { name: "水瓶座", icon: "fas fa-tint" },
+            aquarius: { name: "水瓶座", icon: "fas fa-water" },
             pisces: { name: "双鱼座", icon: "fas fa-fish" }
         };
         
@@ -621,4 +621,5 @@
     </script>
 </body>
 </html>
+
 
